@@ -72,9 +72,10 @@ $complex-context: 500px, (screen) 500px 700px, 300px monochrome;
   @include breakpoint($context-or) {
     content: '@media (min-width: 500px), (min-width: 600px) and (max-width: 700px)';
     @debug 'TESTS';
-    // @debug $private-breakpoint-context-holder;
-    // @debug breakpoint-get-context(min-width);
-    // @debug breakpoint-get-context(max-width);
+    @debug $private-breakpoint-context-holder;
+    @debug breakpoint-get-context(min-width);
+    @debug breakpoint-get-context(max-width);
+    @debug breakpoint-get-context(max-height);
   }
 }
 
