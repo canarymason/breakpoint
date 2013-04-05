@@ -2,6 +2,12 @@
 
 **Really Simple Media Queries with Sass**
 
+# Active development has moved to [Team-Sass/breakpoint](https://github.com/Team-Sass/breakpoint).
+## Please direct your attention [there](https://github.com/Team-Sass/breakpoint). 
+### Sincerely, [The Management](https://github.com/Team-Sass)
+
+------
+
 Breakpoint makes writing media queries in Sass super simple. Create a variable using a simplified syntax based on most commonly used media queries, then call it using the `breakpoint` mixin.  Breakpoint handles all of the heavy lifting, from writing the media query itself, to handling cross-browser compatibility issues, so you can focus on what's important: making sure your website looks its best.
 
 Breakpoint makes the following assumptions:
